@@ -1,6 +1,6 @@
 # Cygnus ZMK Config
 
-![Keymap Image](images/my_keymap.svg)
+![Keymap Image](images/cygnus.svg)
 
 Keymap image generated with: https://keymap-drawer.streamlit.app/
 
