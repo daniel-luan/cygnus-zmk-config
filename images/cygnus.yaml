@@ -50,10 +50,10 @@ layers:
   - /
   - {t: ENTER, h: RSHFT}
   - {t: ▽, type: trans}
-  - SPACE
   - lower
+  - {t: SPACE, h: lower}
+  - {t: SPACE, h: raise}
   - raise
-  - SPACE
   - {t: ▽, type: trans}
   lower:
   - {t: ▽, type: trans}
@@ -105,8 +105,8 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -215,8 +215,8 @@ layers:
   - {t: ▽, type: trans}
   - PLAY PAUSE
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   - {type: held}
+  - {t: ▽, type: trans}
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
