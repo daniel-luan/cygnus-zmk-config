@@ -25,19 +25,19 @@ layers:
   - O
   - P
   - DELETE
-  - ESC
-  - {t: A, h: LEFT CONTROL}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT GUI}
-  - {t: F, h: LEFT SHIFT}
+  - LEFT SHIFT
+  - A
+  - S
+  - D
+  - F
   - G
   - H
-  - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RIGHT GUI}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RIGHT CONTROL}
+  - J
+  - K
+  - L
+  - ;
   - ''''
-  - LSHFT
+  - LEFT CONTROL
   - Z
   - X
   - C
@@ -49,12 +49,12 @@ layers:
   - .
   - /
   - {t: ENTER, h: RSHFT}
-  - {t: ▽, type: trans}
+  - LEFT GUI
   - lower
   - {t: SPACE, h: lower}
   - {t: SPACE, h: raise}
   - raise
-  - {t: ▽, type: trans}
+  - LEFT ALT
   lower:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
