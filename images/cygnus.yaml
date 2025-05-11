@@ -26,16 +26,16 @@ layers:
   - P
   - DELETE
   - ESC
-  - A
-  - S
-  - D
-  - F
+  - {t: A, h: LEFT CONTROL}
+  - {t: S, h: LEFT ALT}
+  - {t: D, h: LEFT GUI}
+  - {t: F, h: LEFT SHIFT}
   - G
   - H
-  - J
-  - K
-  - L
-  - ;
+  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RIGHT GUI}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: RIGHT CONTROL}
   - ''''
   - LSHFT
   - Z
@@ -49,12 +49,12 @@ layers:
   - .
   - /
   - {t: ENTER, h: RSHFT}
-  - LGUI
-  - LCTRL
-  - {t: SPACE, h: lower}
-  - {t: SPACE, h: raise}
-  - BSPC
-  - LALT
+  - {t: ▽, type: trans}
+  - SPACE
+  - lower
+  - raise
+  - SPACE
+  - {t: ▽, type: trans}
   lower:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
