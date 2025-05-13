@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: cygnus}
 layers:
-  qwerty:
+  Base:
   - {t: ESC, s: '`'}
   - '1'
   - '2'
@@ -50,12 +50,12 @@ layers:
   - /
   - {t: ENTER, h: RSHFT}
   - LEFT GUI
-  - lower
-  - {t: SPACE, h: lower}
-  - {t: SPACE, h: raise}
-  - raise
+  - Lower
+  - {t: SPACE, h: Lower}
+  - {t: SPACE, h: Raise}
+  - Raise
   - LEFT ALT
-  lower:
+  Lower:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -110,7 +110,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  raise:
+  Raise:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -165,7 +165,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  adjust:
+  Adjust:
   - F1
   - F2
   - F3
